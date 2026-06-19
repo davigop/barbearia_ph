@@ -387,7 +387,6 @@ main > section{
         width: min(100%, 1440px);
         max-width: 1440px;
         gap: 36px;
-        flex: 1;
     }
     .hero-servicos {
         align-items: stretch;
@@ -395,8 +394,8 @@ main > section{
         min-height: 200px;
     }
     .page-dois {
-        padding: 72px 16px 64px;
-        min-height: 100dvh;
+        padding: 40px 16px;
+        height: 100dvh;
     }
 
     .servicos-dstq-container {

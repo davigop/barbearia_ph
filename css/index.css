@@ -417,3 +417,36 @@ main > section{
 }
 }
 
+@media (min-width: 1440px) {
+    .page-dois {
+        min-height: 100dvh;
+        padding: 90px 60px 60px;
+    }
+
+    .cards-servicos {
+        width: min(100%, 1720px);
+        max-width: 1720px;
+        gap: 44px;
+    }
+
+    .hero-servicos {
+        min-height: 660px;
+    }
+
+    .servicos-dstq-container {
+        padding: 48px;
+    }
+
+    .servicos-item-img {
+        height: 380px;
+    }
+
+    .servicos-item-titulo {
+        font-size: 26px;
+    }
+
+    .servico-item-preco {
+        font-size: 24px;
+    }
+}
+

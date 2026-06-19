@@ -244,13 +244,14 @@ main > section{
     gap: 22px;
     border-radius: 6px;
     background-color: #2D2D2D;
-    padding: 30px 30px;
+    padding: 26px 22px;
     border: 2px solid rgba(137, 243, 54, 0.35);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
     transition: 0.2s ease;
     position: relative;
     width: 100%;
     max-width: 340px;
+    height: 100%;
 }
 
 .servicos-dstq-container:hover{
@@ -395,7 +396,6 @@ main > section{
     .servicos-dstq-container {
         max-width: none;
         height: 100%;
-        padding: 34px;
     }
     .servicos-item-titulo {
         font-size: 22px;

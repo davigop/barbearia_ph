@@ -205,7 +205,7 @@ main > section{
     justify-content: center;
     padding: 60px 16px 50px;
     background-color: #1f1f1f;
-    gap: 36px;
+    gap: 60px;
     min-height: 90dvh;
     width: 100%;
 }

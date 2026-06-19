@@ -391,6 +391,10 @@ main > section{
         max-width: none;
         height: 100%;
     }
+    .servicos-item-titulo {
+        font-size: 18px;
+        line-height: 1.2;
+    }
     .servicos-item-img {
         height: 220px;
     }

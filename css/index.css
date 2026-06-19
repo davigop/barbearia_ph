@@ -192,9 +192,18 @@ main > section{
 
 .seta {
     margin-top: 8px;
-    display: inline-block;
-    width: 18px;
-    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.seta::before {
+    content: "";
+    width: 16px;
+    height: 16px;
     border-right: 4px solid #28721A;
     border-bottom: 4px solid #28721A;
     transform: rotate(45deg);

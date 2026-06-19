@@ -382,6 +382,8 @@ main > section{
     .cards-servicos {
         grid-template-columns: repeat(3, 1fr);
         align-items: stretch;
+        max-width: 1280px;
+        gap: 32px;
     }
     .hero-servicos {
         align-items: stretch;
@@ -390,13 +392,14 @@ main > section{
     .servicos-dstq-container {
         max-width: none;
         height: 100%;
+        padding: 34px;
     }
     .servicos-item-titulo {
-        font-size: 18px;
+        font-size: 22px;
         line-height: 1.2;
     }
     .servicos-item-img {
-        height: 220px;
+        height: 240px;
     }
     .button-container {
     width: 100%;

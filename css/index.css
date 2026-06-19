@@ -203,10 +203,10 @@ main > section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 28px 16px 50px;
+    padding: 60px 16px 50px;
     background-color: #1f1f1f;
     gap: 60px;
-    min-height: 92dvh;
+    min-height: 9dvh;
     width: 100%;
 }
 
@@ -393,6 +393,10 @@ main > section{
         height: 100%;
         min-height: 200px;
     }
+    .page-dois {
+        padding: 40px 16px;
+    }
+    .servic
     .servicos-dstq-container {
         max-width: none;
         height: 100%;

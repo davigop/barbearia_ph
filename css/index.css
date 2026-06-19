@@ -207,6 +207,7 @@ main > section{
     background-color: #1f1f1f;
     gap: 36px;
     min-height: 90dvh;
+    width: 100%;
 }
 
 .cards-servicos {
@@ -381,14 +382,15 @@ main > section{
     }
     .cards-servicos {
         grid-template-columns: repeat(3, 1fr);
-        align-items: ;
+        align-items: stretch;
+        width: min(100%, 1440px);
         max-width: 1440px;
         gap: 36px;
     }
     .hero-servicos {
         align-items: stretch;
         height: 100%;
-        min-height: 520px;
+        min-height: 560px;
     }
     .servicos-dstq-container {
         max-width: none;

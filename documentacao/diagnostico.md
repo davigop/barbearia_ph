@@ -12,7 +12,6 @@ Público-alvo
 O público-alvo da Barbearia PH é composto por homens e jovens da região de Taguatinga e cidades próximas, que buscam serviços de corte de cabelo, barba e cuidados com a aparência, além de clientes que desejam encontrar rapidamente informações sobre atendimento e formas de contato.
 
 Informações que o público precisa encontrar
-
 A página deverá disponibilizar:
 
 Apresentação da Barbearia PH;
@@ -23,6 +22,7 @@ WhatsApp para contato;
 Instagram oficial;
 Fotos dos trabalhos realizados;
 Informações para agendamento.
+
 Objetivo do site
 
 O principal objetivo do site é fortalecer a presença digital da Barbearia PH, reunindo em um único ambiente as informações mais importantes do negócio e facilitando o contato com os clientes.

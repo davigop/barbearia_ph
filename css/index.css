@@ -365,6 +365,16 @@ main > section{
     color: #E8E8E8;
 }
 
+.faq-answer{
+    display: none;
+}
+
+.faq-question{
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+}
+
 @media(min-width: 768px) {
     .button-container {
     width: 100%;

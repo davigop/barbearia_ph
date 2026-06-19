@@ -390,12 +390,12 @@ main > section{
     .hero-servicos {
         align-items: stretch;
         height: 100%;
-        min-height: 560px;
+        min-height: 500px;
     }
     .servicos-dstq-container {
         max-width: none;
         height: 100%;
-        padding: 40px;
+        padding: 34px;
     }
     .servicos-item-titulo {
         font-size: 22px;
@@ -430,15 +430,15 @@ main > section{
     }
 
     .hero-servicos {
-        min-height: 660px;
+        min-height: 560px;
     }
 
     .servicos-dstq-container {
-        padding: 48px;
+        padding: 38px;
     }
 
     .servicos-item-img {
-        height: 380px;
+        height: 320px;
     }
 
     .servicos-item-titulo {

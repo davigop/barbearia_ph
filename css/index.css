@@ -5,32 +5,43 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    width: 100dvw;
+    height: 100dvh;
 }
 
-body{
-    width: 414px    ;
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
-
+section{
+    scroll-snap-align: start;
+}
+.page-um,{
+    transition: opacity 0,6s ease, transform 0.6s ease;
+}
 .header-logo {
     margin: 0;
 }
 
 .header-logo img {
-    width: 5.525rem;
+    width: 90px;
     height: auto;
     display: block;
 }
 
 .navbar  {
     background-color: #0A0A0A;
-    min-height: 3.4375rem;
+    min-height: 55px;
     padding: 0px 0px;
-    border-bottom: 0.1875rem solid #2E4A3D ;
+    border-bottom: 3px solid #2E4A3D ;
 }
 
 .navbar-toggler {
-    width: 2.375rem;
-    height: 2.25rem;
+    width: 38px;
+    height: 36px;
     padding: 0;
     display: flex;
     align-items: center;
@@ -38,7 +49,7 @@ body{
     border: none;
     border-radius: 8px;
     background-color: #2D2D2D;
-    border-radius: 0.375rem;
+    border-radius: 6px;
 }
 
 .navbar-toggler-icon {
@@ -160,9 +171,7 @@ body{
     text-decoration: none;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 .saiba-mais-container {
     display: flex;
@@ -198,7 +207,14 @@ html {
     align-items: center;
     justify-content: center;
     padding: 50px 0px;
-    background-color: #2D2D2D;
+    background-color: #1f1f1f;
+    gap: 50px;
+}
+
+.cards-servicos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 26px;
 }
 
 .hero-servicos {
@@ -207,15 +223,17 @@ html {
     align-items: center;
     justify-content: center;
     gap: 26px;
+    margin: 0px 16px;
+    
+
 }
 .servicos-item{
     padding: 0px;
 }
 .servicos-item-img {
-    width: 400px;
+    width: 100%;
     height: 100%;
     border-radius: 4px;
-    border: solid 1px #89F336;
 }
 
 .servicos-dstq-container {
@@ -225,17 +243,41 @@ html {
     justify-content: center;
     gap: 22px;
     border-radius: 6px;
-    background-color: #0A0A0A;
+    background-color: #2D2D2D;
     padding: 30px 30px;
-    border: solid 1px #89F336;
+    border: 2px solid rgba(137, 243, 54, 0.35);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    transition: 0.2s ease;
+    position: relative;
 }
 
+.servicos-dstq-container:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
+}
+
+.servicos-dstq-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, rgba(0,0,0,0.2), transparent);
+    opacity: 0.4;
+    transition: 0.2s;
+}
+
+.servicos-dstq-container:hover::before{
+    opacity: 1;
+}
 .servicos-dstq {
     background-color: #0A0A0A;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 6px;
+    padding: 4px 6px;
 }
 
 .servicos-dstq-top {
@@ -292,6 +334,7 @@ html {
 }
 
 .servicos-item-titulo {
+    color: #E8E8E8;
 
 }
 
@@ -301,6 +344,7 @@ html {
     font-size: 22px;
     color: #E8E8E8;
 }
+
 @media(min-width: 768px) {
     .button-container {
     width: 100%;
@@ -316,6 +360,9 @@ html {
 }
 
 @media (min-width: 1024px) {
+    .body {
+        width: 100vw;
+    }
     .hero-title {
         font-size: 48px;
     }
@@ -325,7 +372,9 @@ html {
     .saiba-mais-container {
         margin-top: 100px;
     }
-    
+    .cards-servicos {
+        grid-template-columns: repeat(3, 1fr);
+    }
     .button-container {
     width: 100%;
     max-width: 280px;

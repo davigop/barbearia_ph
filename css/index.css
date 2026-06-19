@@ -231,8 +231,7 @@ main > section{
 }
 .servicos-item-img {
     width: 100%;
-    height: 100%;
-    min-height: 190px;
+    height: 190px;
     object-fit: cover;
     border-radius: 4px;
 }
@@ -285,11 +284,11 @@ main > section{
 
 .servicos-dstq-top {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 18px;
     width: 100%;
-    aspect-ratio: 4 / 3;
+    height: auto;
 }
 
 .servicos-dstq-bottom {
@@ -403,7 +402,7 @@ main > section{
         line-height: 1.2;
     }
     .servicos-item-img {
-        min-height: 280px;
+        height: 280px;
     }
     .button-container {
     width: 100%;
@@ -439,7 +438,7 @@ main > section{
     }
 
     .servicos-item-img {
-        min-height: 380px;
+        height: 380px;
     }
 
     .servicos-item-titulo {

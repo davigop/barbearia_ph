@@ -1,15 +1,16 @@
-const perguntas = document.querySelectorAll(".faq-question");
+document.addEventListener("DOMContentLoaded", () => {
 
-perguntas.forEach(pergunta => {
-    pergunta.addEventListener("click", () => {
+  document.querySelectorAll(".faq-question").forEach(btn => {
+    btn.addEventListener("click", () => {
 
-        const resposta = pergunta.nextElementSibling;
+      const item = btn.closest(".faq-item");
 
-        if (resposta.style.display === "block") {
-            resposta.style.display = "none";
-        } else {
-            resposta.style.display = "block";
-        }
+      document.querySelectorAll(".faq-item").forEach(el => {
+        if (el !== item) el.classList.remove("active");
+      });
 
+      item.classList.toggle("active");
     });
+  });
+
 });

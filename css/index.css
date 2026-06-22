@@ -14,7 +14,6 @@ body {
 
 html {
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
 }
 main > section{
     scroll-snap-align: start;
@@ -500,6 +499,7 @@ footer {
     text-align: center;
     color: #E8E8E8;
     border-top: solid 1px #89F336;
+    scroll-snap-align: start;
 }
 
 

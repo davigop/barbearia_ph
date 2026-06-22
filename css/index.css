@@ -372,8 +372,8 @@
         align-items: center;
         justify-content: center;
         background-color: #1f1f1f;
-        gap: 60px;
-        min-height: 9dvh;
+        gap: 30px;
+        min-height: 80dvh;
         width: 100%;
     }
     .faq-container {
@@ -385,8 +385,8 @@
     }
 
     .faq-item-container{
-        display: flex;
-        flex-direction:column ;
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 28px;
         max-width: 100%;
     }
@@ -402,8 +402,8 @@
     .faq-answer{
         max-width: 100%;
         width: 100%;
-        color: #E8E8E8;
-        background-color: #0A0A0A;
+        color: #2D2D2D;
+        background-color: #bab9b9;
         border-bottom: solid 0.5px #89F336;
         border-bottom-left-radius: 6px ;
         border-bottom-right-radius: 6px;
@@ -422,6 +422,8 @@
         color: #e8e8e8;
         background-color: #28721A;
         border: none;
+        border-top-left-radius:5px ;
+        border-top-right-radius: 5px;
         text-align: left;
         font-size: 16px;
     }
@@ -432,6 +434,49 @@
         transform: translateY(0);
         padding: 15px;
         }
+    
+    .contato-item-container {
+        gap: 40px;
+    }
+
+    .contato-titulo {
+        text-align: center;
+        padding: 30px 0px;
+        color: #e8e8e8;
+    }
+    .contato-item {
+        color: #E8E8E8; 
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     @media(min-width: 768px) {
         .button-container {
@@ -499,4 +544,8 @@
         background-color: #28721A;
         border-radius: 8px;
     }
+        .faq-item-container {
+            grid-template-columns: repeat(2,1fr);
+            gap: 50px
+        }
     }

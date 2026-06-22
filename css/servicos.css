@@ -101,7 +101,7 @@ main > section{
 }
 
 #servicos-page-container{
-    padding: 110px 16px 0;
+    padding: 110px 16px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,7 @@ main > section{
     align-items: center;
 }
 
-#servicos-container-card {
+.servicos-container-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,7 +200,7 @@ main > section{
 }
 
 .trabalhos-realizados {
-    padding: 40px 0 0;
+    padding: 40px 0 20px;
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -234,6 +234,29 @@ main > section{
     color: #E8E8E8;
 }
 
+.button{
+    display:flex;
+    justify-content: center;    
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 0.625rem 1rem;
+    background-color: #28721A;
+    border-radius: 0.5rem;
+    border: solid 1px #89F336;
+}
+
+
+.btnagendar{
+    color: #E8E8E8;
+}
+
+.btnagendar:hover {
+    color: #89F336;
+    text-decoration: none;
+}
+
 video {
     width:100%;
    
@@ -244,6 +267,16 @@ footer {
     background-color: #2E4A3D;
 }
 
+.call-action {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.call-action-titulo {
+    text-align: center;
+    color: #E8E8E8;
+}
 .footer-texto {
     height: 100%;
     margin: 0;
@@ -255,7 +288,7 @@ footer {
 
 
 @media (min-width: 768px) {
-    #servicos-container-card {
+    .servicos-container-card {
         flex-direction: row;      
         flex-wrap: wrap;
         align-items: stretch;           

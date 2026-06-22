@@ -571,14 +571,13 @@ footer {
          margin-top: 100px; 
         }
     .cards-servicos {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(280px, 1fr));
         gap: 2.25rem;
         align-items: stretch; 
-        width: min(100%, 1440px); 
-        max-width: 1440px;
+        width: min(1440px, 100%); 
     }
     .hero-servicos {
-            align-items: stretch;
+        align-items: stretch;
         height: 100%; 
         min-height: 200px; }
 
@@ -599,6 +598,7 @@ footer {
     .servicos-dstq-container {
         transition: transform 0.3s ease;
         height: 100%;
+        width: 100%;
     }
 
     .servicos-dstq-container:hover {

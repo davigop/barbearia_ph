@@ -479,6 +479,7 @@ main > section{
 .link {
     color: #E8E8E8;
     cursor: pointer;
+    text-decoration: none;
     font-size: 1.25rem;
 }
 
